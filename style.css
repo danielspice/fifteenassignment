@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #36384d;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* height: 450px; */
+    padding: 10px;
+    max-width: 700px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.container-one{
+    
+}
+
+h1{
+    color: #1e223d;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.join{
+    color: #323443;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.product{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.measure{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.add{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.email{
+    margin-left: 20px;
+}
+
+form  {
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid grey;
+}
+
+.suscribe{
+    background-color: #232742;
+    margin-top: 20px;
+    height: 40px;
+    width: 210px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 20px;
+}
+
+.container-three{
+    /* margin-right: 200px; */
+}
+
+img{
+    width: 300px;
+    /* margin-left: 400px; */
+}
+
+
+@media all and (max-width:700px) {
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .container-one{
+        /* width: 500px; */
+    }
+}
